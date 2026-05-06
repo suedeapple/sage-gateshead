@@ -1,10 +1,10 @@
-import type { Metadata } from 'next'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import type { Metadata } from "next";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: 'Contact',
-}
+  title: "Contact",
+};
 
 export default function ContactPage() {
   return (
@@ -17,13 +17,15 @@ export default function ContactPage() {
         <div className="container">
           <div className="rte">
             <p>
-              If you have any questions, feel free to get in touch with us at{' '}
-              <a href="mailto:namechange@sagegateshead.com">namechange@sagegateshead.com</a>
+              If you have any questions, feel free to get in touch with us at{" "}
+              <a href="mailto:namechange@sagegateshead.com">
+                namechange@sagegateshead.com
+              </a>
             </p>
           </div>
         </div>
       </main>
       <Footer />
     </div>
-  )
+  );
 }

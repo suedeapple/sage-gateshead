@@ -1,11 +1,11 @@
-import type { Metadata } from 'next'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import StoryWall from './components/StoryWall'
+import type { Metadata } from "next";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import StoryWall from "./components/StoryWall";
 
 export const metadata: Metadata = {
-  title: 'Sage Gateshead',
-}
+  title: "Sage Gateshead",
+};
 
 export default function HomePage() {
   return (
@@ -21,5 +21,5 @@ export default function HomePage() {
       <StoryWall />
       <Footer />
     </div>
-  )
+  );
 }

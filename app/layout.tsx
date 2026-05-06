@@ -1,20 +1,20 @@
-import type { Metadata } from 'next'
-import './globals.css'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Sage Gateshead',
-    default: 'Sage Gateshead',
+    template: "%s | Sage Gateshead",
+    default: "Sage Gateshead",
   },
   icons: {
-    icon: '/media/swybr0mu/faviconsg.webp',
+    icon: "/media/swybr0mu/faviconsg.webp",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -30,5 +30,5 @@ export default function RootLayout({
       </head>
       <body>{children}</body>
     </html>
-  )
+  );
 }
